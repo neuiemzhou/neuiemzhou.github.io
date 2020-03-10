@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+<<<<<<< HEAD
     <loc>https://neuiemzhou.github.io/post/blog/</loc>
     <lastmod>2020-03-05T22:01:07+08:00</lastmod>
+=======
+    <loc>https://neuiemzhou.github.io/categories/</loc>
+>>>>>>> first commit
   </url>
   
   <url>
     <loc>https://neuiemzhou.github.io/</loc>
+<<<<<<< HEAD
     <lastmod>2020-03-05T22:01:07+08:00</lastmod>
   </url>
   
@@ -19,6 +24,8 @@
   
   <url>
     <loc>https://neuiemzhou.github.io/categories/</loc>
+=======
+>>>>>>> first commit
   </url>
   
   <url>
