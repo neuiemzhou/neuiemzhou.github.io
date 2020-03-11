@@ -6,10 +6,19 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2020 23:18:53 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 15:41:46 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blo4g</title>
+      <link>https://neuiemzhou.github.io/post/blo4g/</link>
+      <pubDate>Wed, 11 Mar 2020 15:41:46 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/blo4g/</guid>
+      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t m10c &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;quot;https://neuiemzhou.github.io/&amp;rdquo; cd public git init(可省略) git remote add origin https://github.com/neuiemzhou/neuiemzhou.github.io.git（可省略） （只需要进行这个就可更新文章如果出错再加上前面的命令）进行git命令   git add . git commit -m &amp;ldquo;随便什么都可以&amp;rdquo; git push -u origin master 输入github账号密码 完事啦！！！  如果出错  参考这篇文章：https://blog.csdn.net/qq_36079972/article/details/100284350  如果再出错  去掉文章（.md）编写中的 ？=true  </description>
+    </item>
     
     <item>
       <title>hugo 更新文章教程</title>
