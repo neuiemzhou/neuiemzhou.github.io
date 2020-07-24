@@ -150,25 +150,71 @@
 </nav>
         <div id="content" class="content-container">
         
-<h1 class="post-title">My_1</h1>
+<h1 class="post-title">Iris data download</h1>
     
-    <time>March 10, 2020</time>
+    <time>July 24, 2020</time>
     
     <div>
         <p>
-        <p>大家好，我是渣渣辉。</p>
-<h1 id="简介">简介</h1>
-<ul>
-<li>出生地：香港</li>
-<li>性别：男</li>
-<li>年龄：38</li>
-</ul>
-<h1 id="演员经历">演员经历</h1>
+        <h1 id="使用sod下载iris地震数据">使用SOD下载IRIS地震数据</h1>
 <ol>
-<li>是兄弟就来啃我</li>
-<li>是兄弟就来啃我啊</li>
-<li>是兄弟就来啃我啊哈哈</li>
+<li>强烈建议win10用户在应用商店内置一个ubuntu</li>
+<li>内置完成之后此时linux系统的根目录在 C：/用户/你的用户名/appdata/local/packages/C..G..LUuntu/localstate/rootfs/ 这就是你的根目录。</li>
 </ol>
+<h1 id="下载sod">下载SOD</h1>
+<ol>
+<li>由于 SOD 是 Java 写的，因而可以跨平台直接使用。
+下载:
+$ wget <a href="http://www.seis.sc.edu/downloads/sod/3.2.8/sod-3.2.8.tgz">http://www.seis.sc.edu/downloads/sod/3.2.8/sod-3.2.8.tgz</a>
+解压并安装
+$ tar -xvf sod-3.2.8.tgz
+$ sudo mv sod-3.2.8 /usr/local
+修改环境变量 PATH
+$ echo &lsquo;export PATH=${PATH}:/usr/local/sod-3.2.8/bin'&raquo; ~/.bashrc
+重启终端，并执行 sod -h 以确认 SOD 是否正常安装</li>
+<li>下载是不会有问题的，如果系统中没有java请往下看。</li>
+</ol>
+<h1 id="安装java">安装JAVA</h1>
+<ol>
+<li>去官网 <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a> 下载，需要注册账号！</li>
+<li>找到对应版本以：jdk-8u261-linux-x64.tar.gz 为例。</li>
+<li>到下载目录下进行解压：
+$ tar -zxvf jdk-8u261-linux-x64.tar.gz</li>
+<li>创建java文件夹并移动文件
+$ mkdir /usr/local/java 如果失败试试加上 sudo
+$ cd /usr/local/java
+把下载的文件 jdk-8u261-linux-x64.tar.gz 放在/usr/local/java/目录下。
+$ sudo mv jdk1.8.0_261 /usr/local/java</li>
+<li>推荐使用此方法：
+找到linux根目录 /etc/profile 用vscode或者notepad++打开profile，设置环境变量
+set java environment
+JAVA_HOME=/usr/local/java/jdk1.8.0_151     <br>
+JRE_HOME=/usr/local/java/jdk1.8.0_151/jre  <br>
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH</li>
+<li>设置环境变量如果报错权限不够
+$ sudo chmod -R 777 /etc/profile 或者 $ sudo -i</li>
+</ol>
+<ul>
+<li>让修改生效
+$ source /etc/profile</li>
+<li>重启终端测试
+$ java -version</li>
+<li>成功yep!</li>
+</ul>
+<h1 id="安装完java以及sod后">安装完java以及SOD后</h1>
+<ul>
+<li>sod 的命令行语法很简单，直接sod -f recipe.xml
+其中 recipe.xml 是 sod 的配置文件。sod 的配置文件称为 recipe，是一个 xml 格式的纯文本文件，其中定义了地震数据筛选的一系列规则。</li>
+<li>运行示例
+执行 sod &ndash;demo -r &gt; demo.xml 会生成一个名为 demo.xml 的 recipe 示例，用编辑器查看其内容以对 recipe 的结构和格式有个初步印象。</li>
+<li>recipe的制作具体细节可以参考
+SOD的官网：http://www.seis.sc.edu/sod/
+seisman的github: <a href="https://github.com/seisman/SODrecipes">https://github.com/seisman/SODrecipes</a></li>
+</ul>
+<h1 id="github上提供了很多-recipe-可以根据自己的修改按自己的需求进行修改有用的话记得应用和感谢他们">github上提供了很多 recipe 可以根据自己的修改按自己的需求进行修改，有用的话记得应用和感谢他们！</h1>
+<p>运行 $ sod -f XXX.xml 就可以下载到自己想要的数据了。</p>
 
         </p>
     </div>
