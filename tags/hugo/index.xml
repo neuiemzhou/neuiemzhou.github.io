@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on 开放、共享、进步</title>
+    <title>hugo on 开放、共享、合作</title>
     <link>https://neuiemzhou.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on 开放、共享、进步</description>
+    <description>Recent content in hugo on 开放、共享、合作</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Wed, 11 Mar 2020 15:41:46 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />

@@ -8,12 +8,17 @@
   </url>
   
   <url>
-    <loc>https://neuiemzhou.github.io/post/iris_chann/</loc>
+    <loc>https://neuiemzhou.github.io/post/</loc>
     <lastmod>2020-07-27T16:20:27+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://neuiemzhou.github.io/post/</loc>
+    <loc>https://neuiemzhou.github.io/tags/sod/</loc>
+    <lastmod>2020-07-27T16:20:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neuiemzhou.github.io/post/iris_chann/</loc>
     <lastmod>2020-07-27T16:20:27+08:00</lastmod>
   </url>
   
@@ -48,17 +53,27 @@
   </url>
   
   <url>
-    <loc>https://neuiemzhou.github.io/posts/zhoublog1/</loc>
-    <lastmod>2020-03-10T23:18:53+08:00</lastmod>
+    <loc>https://neuiemzhou.github.io/tags/markdown/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://neuiemzhou.github.io/posts/my_1/</loc>
-    <lastmod>2020-03-10T22:56:34+08:00</lastmod>
+    <loc>https://neuiemzhou.github.io/posts/markdown-syntax/</loc>
+    <lastmod>2020-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://neuiemzhou.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neuiemzhou.github.io/about/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neuiemzhou.github.io/donet/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   

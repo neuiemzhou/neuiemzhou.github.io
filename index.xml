@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>开放、共享、进步</title>
+    <title>开放、共享、合作</title>
     <link>https://neuiemzhou.github.io/</link>
-    <description>Recent content on 开放、共享、进步</description>
+    <description>Recent content on 开放、共享、合作</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Fri, 24 Jul 2020 20:25:14 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>IRIS_chann</title>
+      <title>SOD工具使用注意事项</title>
       <link>https://neuiemzhou.github.io/post/iris_chann/</link>
       <pubDate>Mon, 27 Jul 2020 16:20:27 +0800</pubDate>
       
       <guid>https://neuiemzhou.github.io/post/iris_chann/</guid>
-      <description>利用SOD下载数据相关问题（以“NV”台网为例）  台站信息   IRIS提供台网代码根据代码查看某些台网所建立的台站信息。 网站：http://ds.iris.edu/mda/NV/ （后缀NV为自己所需要的网站）。 可以或者台网包括的台站信息。  通道选择 查看该台网中的台站可用的通道信息。   官网：http://service.</description>
+      <description>利用SOD下载数据相关问题（以“NV”台网为例）  台站信息   IRIS提供台网代码根据代码查看某些台网所建立的台站信息。   台网信息 （后缀NV为自己所需要的网站）。   可以或者台网包括的台站信息。  通道选择 查看该台网中的台站可用的通道信息。   可用通道信息 进入之后输入台网代码-台站代码，点击页面下方链接会出现  #Network Station Location Channel Quality Earliest Latest NV NSMTC B1 CN1 M 2019-07-01T00:00:00.</description>
     </item>
     
     <item>
@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>Iris data download</title>
+      <title>SOD工具下载IRIS数据</title>
       <link>https://neuiemzhou.github.io/post/iris_data_download/</link>
       <pubDate>Fri, 24 Jul 2020 20:25:14 +0800</pubDate>
       
       <guid>https://neuiemzhou.github.io/post/iris_data_download/</guid>
-      <description>使用SOD下载IRIS地震数据  强烈建议win10用户在应用商店内置一个ubuntu 内置完成之后此时linux系统的根目录在 C：/用户/你的用户名/appdata/local/packages/C..G..LUuntu/localstate/rootfs/ 这就是你的根目录。  下载SOD  由于 SOD 是 Java 写的，因而可以跨平台直接使用。 下载: $ wget http://www.</description>
+      <description>使用SOD下载IRIS地震数据  强烈建议win10用户在应用商店内置一个ubuntu 内置完成之后此时linux系统的根目录在  C：/用户/你的用户名/appdata/local/packages/C..G..LUuntu/localstate/rootfs/ 这就是你的根目录。 下载SOD  由于 SOD 是 Java 写的，因而可以跨平台直接使用。 下载:   $ wget http://www.</description>
     </item>
     
     <item>
@@ -48,22 +48,12 @@
     </item>
     
     <item>
-      <title>hugo 更新文章教程</title>
-      <link>https://neuiemzhou.github.io/posts/zhoublog1/</link>
-      <pubDate>Tue, 10 Mar 2020 23:18:53 +0800</pubDate>
+      <title>Markdown Syntax</title>
+      <link>https://neuiemzhou.github.io/posts/markdown-syntax/</link>
+      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://neuiemzhou.github.io/posts/zhoublog1/</guid>
-      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t m10c &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo &amp;ndash;theme=noteworthy &amp;ndash;baseUrl=&amp;quot;https://neuiemzhou.</description>
-    </item>
-    
-    <item>
-      <title>My_1</title>
-      <link>https://neuiemzhou.github.io/posts/my_1/</link>
-      <pubDate>Tue, 10 Mar 2020 22:56:34 +0800</pubDate>
-      
-      <guid>https://neuiemzhou.github.io/posts/my_1/</guid>
-      <description>大家好，我是渣渣辉。
-简介  出生地：香港 性别：男 年龄：38  演员经历  是兄弟就来啃我 是兄弟就来啃我啊 是兄弟就来啃我啊哈哈  </description>
+      <guid>https://neuiemzhou.github.io/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,6 +63,24 @@
       
       <guid>https://neuiemzhou.github.io/archives/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://neuiemzhou.github.io/about/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/about/</guid>
+      <description>🙈 :初心:  写一个备份，为了防止以后忘记一些自己曾经用过的程序、一些想法。 做一个参考，毕竟道路很窄，一个人遇到的问题可能是很多人将会遇到的问题。 是一个分享，说不定还能遇到志同道合的小伙伴。  🙉 :分享:  对一个问题的剖析理解。 对几个程序的详细解读。 对一些代码的共享。  🙊 :专业:  土木工程 地震工程  </description>
+    </item>
+    
+    <item>
+      <title>Donate</title>
+      <link>https://neuiemzhou.github.io/donet/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/donet/</guid>
+      <description>你觉得本博客对你是否有帮助 </description>
     </item>
     
   </channel>
