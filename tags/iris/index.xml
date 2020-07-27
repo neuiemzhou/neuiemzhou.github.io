@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IRIS on 开放、共享、进步</title>
+    <link>https://neuiemzhou.github.io/tags/iris/</link>
+    <description>Recent content in IRIS on 开放、共享、进步</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jul 2020 16:20:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://neuiemzhou.github.io/tags/iris/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IRIS_chann</title>
+      <link>https://neuiemzhou.github.io/post/iris_chann/</link>
+      <pubDate>Mon, 27 Jul 2020 16:20:27 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/iris_chann/</guid>
+      <description>利用SOD下载数据相关问题（以“NV”台网为例）  台站信息   IRIS提供台网代码根据代码查看某些台网所建立的台站信息。 网站：http://ds.iris.edu/mda/NV/ （后缀NV为自己所需要的网站）。 可以或者台网包括的台站信息。  通道选择 查看该台网中的台站可用的通道信息。   官网：http://service.</description>
+    </item>
+    
+    <item>
+      <title>Iris data download</title>
+      <link>https://neuiemzhou.github.io/post/iris_data_download/</link>
+      <pubDate>Fri, 24 Jul 2020 20:25:14 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/iris_data_download/</guid>
+      <description>使用SOD下载IRIS地震数据  强烈建议win10用户在应用商店内置一个ubuntu 内置完成之后此时linux系统的根目录在 C：/用户/你的用户名/appdata/local/packages/C..G..LUuntu/localstate/rootfs/ 这就是你的根目录。  下载SOD  由于 SOD 是 Java 写的，因而可以跨平台直接使用。 下载: $ wget http://www.</description>
+    </item>
+    
+  </channel>
+</rss>

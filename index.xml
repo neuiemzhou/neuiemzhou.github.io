@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>IRIS_chann</title>
+      <link>https://neuiemzhou.github.io/post/iris_chann/</link>
+      <pubDate>Mon, 27 Jul 2020 16:20:27 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/iris_chann/</guid>
+      <description>利用SOD下载数据相关问题（以“NV”台网为例）  台站信息   IRIS提供台网代码根据代码查看某些台网所建立的台站信息。 网站：http://ds.iris.edu/mda/NV/ （后缀NV为自己所需要的网站）。 可以或者台网包括的台站信息。  通道选择 查看该台网中的台站可用的通道信息。   官网：http://service.</description>
+    </item>
+    
+    <item>
       <title>Iris data download</title>
       <link>https://neuiemzhou.github.io/iris_data_download/</link>
       <pubDate>Fri, 24 Jul 2020 20:25:14 +0800</pubDate>
@@ -30,21 +39,12 @@
     </item>
     
     <item>
-      <title>Add</title>
-      <link>https://neuiemzhou.github.io/post/add/</link>
-      <pubDate>Sat, 21 Mar 2020 00:38:09 +0800</pubDate>
-      
-      <guid>https://neuiemzhou.github.io/post/add/</guid>
-      <description>不错试试看啊啊啊啊</description>
-    </item>
-    
-    <item>
-      <title>Blo4g</title>
+      <title>利用hugo建立自己的博客</title>
       <link>https://neuiemzhou.github.io/post/blo4g/</link>
       <pubDate>Wed, 11 Mar 2020 15:41:46 +0800</pubDate>
       
       <guid>https://neuiemzhou.github.io/post/blo4g/</guid>
-      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t m10c &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;quot;https://neuiemzhou.</description>
+      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t m10c &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo - -theme=m10c - -baseUrl=&amp;quot;https://neuiemzhou.</description>
     </item>
     
     <item>
@@ -64,35 +64,6 @@
       <guid>https://neuiemzhou.github.io/posts/my_1/</guid>
       <description>大家好，我是渣渣辉。
 简介  出生地：香港 性别：男 年龄：38  演员经历  是兄弟就来啃我 是兄弟就来啃我啊 是兄弟就来啃我啊哈哈  </description>
-    </item>
-    
-    <item>
-      <title>Aa</title>
-      <link>https://neuiemzhou.github.io/aa/</link>
-      <pubDate>Tue, 10 Mar 2020 21:48:16 +0800</pubDate>
-      
-      <guid>https://neuiemzhou.github.io/aa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog3</title>
-      <link>https://neuiemzhou.github.io/post/blog3/</link>
-      <pubDate>Tue, 10 Mar 2020 21:39:17 +0800</pubDate>
-      
-      <guid>https://neuiemzhou.github.io/post/blog3/</guid>
-      <description>大家好，我是渣渣辉。
-简介  出生地：香港 性别：男 年龄：38  演员经历  是兄弟就来啃我 是兄弟就来啃我啊 是兄弟就来啃我啊哈哈  </description>
-    </item>
-    
-    <item>
-      <title>试试看</title>
-      <link>https://neuiemzhou.github.io/post/blog2/</link>
-      <pubDate>Tue, 10 Mar 2020 21:02:09 +0800</pubDate>
-      
-      <guid>https://neuiemzhou.github.io/post/blog2/</guid>
-      <description>大家好，我是渣渣辉。
-简介  出生地：香港 性别：男 年龄：38  演员经历  是兄弟就来啃我 是兄弟就来啃我啊 是兄弟就来啃我啊哈哈 git remote add origin https://github.</description>
     </item>
     
     <item>

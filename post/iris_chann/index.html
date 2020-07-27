@@ -150,48 +150,63 @@
 </nav>
         <div id="content" class="content-container">
         
+<h1 class="post-title">IRIS_chann</h1>
+    
+    <time>July 27, 2020</time>
+    
+    <div>
+        <p>
+        <h1 id="利用sod下载数据相关问题以nv台网为例">利用SOD下载数据相关问题（以“NV”台网为例）</h1>
+<ol>
+<li>台站信息</li>
+</ol>
+<ul>
+<li>IRIS提供台网代码根据代码查看某些台网所建立的台站信息。</li>
+<li>网站：http://ds.iris.edu/mda/NV/ （后缀NV为自己所需要的网站）。</li>
+<li>可以或者台网包括的台站信息。</li>
+</ul>
+<h1 id="通道选择">通道选择</h1>
+<ol start="2">
+<li>查看该台网中的台站可用的通道信息。</li>
+</ol>
+<ul>
+<li>官网：http://service.iris.edu/fdsnws/availability/docs/1/builder/</li>
+<li>进入之后输入台网代码-台站代码，点击页面下方链接会出现
+#Network Station Location Channel Quality Earliest Latest
+NV NSMTC B1 CN1 M 2019-07-01T00:00:00.000000Z 2019-07-01T14:26:22.022000Z
+NV NSMTC B1 CN1 M 2019-07-01T14:26:30.856000Z 2019-07-01T14:26:36.186000Z
+NV NSMTC B1 CN1 M 2019-07-01T14:26:41.484000Z 2019-07-01T14:26:45.034000Z
+NV NSMTC B1 CN1 M 2019-07-01T14:26:48.592000Z 2019-07-01T14:26:50.366000Z</li>
+<li>CN为由数据的通道，在reciep中的networkArm，我们可以选择channel为&quot;CN*&rdquo;</li>
+<li>如果“CN*”只生成某一个方向的数据，那么如果需要获取三分量地震动数据，可以打开三个终端运行分别获取（NV台网就存在这样的问题）</li>
+</ul>
+<h1 id="有几点需要明确">有几点需要明确</h1>
+<ol start="3">
+<li>有些台网包含的台站有不同的通道代码，有些是“BN*”/“BH*”/“HH*”等，需要手动按2的步骤进行查询有数据的通道。</li>
+<li>打开终端的文件夹的命名不要包括中文，在生成SAC文件时会自动新建文件夹，如果在目录文件夹命名有中文会在同级目录下新建。</li>
+</ol>
+<h1 id="sac文件的可视化">SAC文件的可视化</h1>
+<ol start="5">
+<li>鉴于使用win系统的用户过多，推荐几个处理SAC文件的matlab的“.m”文件。</li>
+</ol>
+<ul>
+<li>Prof. Zhigang Peng 或收集、或编写、或改写了部分 matlab 脚本。
+下载地址：http://geophysics.eas.gatech.edu/people/zpeng/Teaching/MatSAC.tar.gz</li>
+<li>对于安装过sac的用户sac/utils 目录下有四个 matlab 脚本，作者 Xiaoning Yang，具体功能看文件名。如果该目录下没有可以查找其他目录下“readsac.m”。</li>
+</ul>
 
-  <h1>
-    Archives
-  </h1>
-  <div>
-     
-      
-      
-          <h3>2020</h3> 
+        </p>
+    </div>
+    
 
-          <ul class="archives-list"> 
-            
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 27</span>
-                    <span>
-                      <a href="/post/iris_chann/">IRIS_chann</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Jul 24</span>
-                    <span>
-                      <a href="/post/iris_data_download/">Iris data download</a>
-                    </span>
-                  </li>
-              
-             
-                  <li class="archives-list-item">
-                    <span class="archives-list-item-date">Mar 11</span>
-                    <span>
-                      <a href="/post/blo4g/">利用hugo建立自己的博客</a>
-                    </span>
-                  </li>
-              
-          </ul>
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/iris">#IRIS</a>
+        
       
-  </div>
-
-  <div class="page-footer"></div>
+    </div>
 
 
         

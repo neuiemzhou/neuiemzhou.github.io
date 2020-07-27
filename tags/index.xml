@@ -6,17 +6,26 @@
     <description>Recent content in Tags on 开放、共享、进步</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Mar 2020 00:38:09 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 16:20:27 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>read deft</title>
-      <link>https://neuiemzhou.github.io/tags/read-deft/</link>
-      <pubDate>Sat, 21 Mar 2020 00:38:09 +0800</pubDate>
+      <title>IRIS</title>
+      <link>https://neuiemzhou.github.io/tags/iris/</link>
+      <pubDate>Mon, 27 Jul 2020 16:20:27 +0800</pubDate>
       
-      <guid>https://neuiemzhou.github.io/tags/read-deft/</guid>
+      <guid>https://neuiemzhou.github.io/tags/iris/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://neuiemzhou.github.io/tags/hugo/</link>
+      <pubDate>Wed, 11 Mar 2020 15:41:46 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
