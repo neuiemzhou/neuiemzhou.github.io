@@ -6,10 +6,19 @@
     <description>Recent content in markdown on 开放、共享、合作</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2020 23:32:54 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>解决排版问题，利用markdown写论文</title>
+      <link>https://neuiemzhou.github.io/post/markdown_aritic/</link>
+      <pubDate>Tue, 28 Jul 2020 23:32:54 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/markdown_aritic/</guid>
+      <description>或许你可以学习一下利用markdown写论文 使用word写论文  写作方便，所有操作都是可视化。 改格式非常麻烦，并且在写作的时候还是不是要去设置字体等打断写作思路。 如果出现某些地方格式不对调半天调不好。  使用latex写论文  功能强大，导出方便且不用担心格式问题。 代码繁琐，入手需要记住很多宏包。 实际操作容易报错，对于新手来说完成一篇论文很吃力，对中文不太友好。  markdown写论文  便捷、轻松、命令简单、排版方便。 不支持双栏文章的撰写。 一些细节要求很难做到。  下载Typora和pandoc   下载Typora，这是一个markdown编辑软件，当然还有vscode自行选择。进入Typora项目下载对应你系统的版本。一步一步安装即可。</description>
+    </item>
     
     <item>
       <title>Markdown Syntax</title>

@@ -17,7 +17,7 @@
       <pubDate>Wed, 11 Mar 2020 15:41:46 +0800</pubDate>
       
       <guid>https://neuiemzhou.github.io/post/blo4g/</guid>
-      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t m10c &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo - -theme=m10c - -baseUrl=&amp;quot;https://neuiemzhou.</description>
+      <description>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t noteworthy &amp;ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo &amp;ndash;theme=noteworthy &amp;ndash;baseUrl=&amp;quot;https://neuiemzhou.</description>
     </item>
     
   </channel>
