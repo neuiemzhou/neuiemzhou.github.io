@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 开放、共享、合作</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2020 23:32:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 22:11:02 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GMT</title>
+      <link>https://neuiemzhou.github.io/tags/gmt/</link>
+      <pubDate>Mon, 25 Jan 2021 22:11:02 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/tags/gmt/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>markdown</title>

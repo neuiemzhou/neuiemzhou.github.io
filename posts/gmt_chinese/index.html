@@ -276,105 +276,45 @@
 </nav>
         <div id="content" class="content-container">
         
-<h1 class="post-title">解决排版问题，利用markdown写论文</h1>
+<h1 class="post-title">GMT中文设置</h1>
     
-    <time>July 28, 2020</time>
+    <time>January 25, 2021</time>
     
     <div>
         <p>
-        <h1 id="或许你可以学习一下利用markdown写论文">或许你可以学习一下利用markdown写论文</h1>
-<h2 id="使用word写论文">使用word写论文</h2>
-<ul>
-<li>写作方便，所有操作都是可视化。</li>
-<li>改格式非常麻烦，并且在写作的时候还是不是要去设置字体等打断写作思路。</li>
-<li>如果出现某些地方格式不对调半天调不好。</li>
-</ul>
-<h2 id="使用latex写论文">使用latex写论文</h2>
-<ul>
-<li>功能强大，导出方便且不用担心格式问题。</li>
-<li>代码繁琐，入手需要记住很多宏包。</li>
-<li>实际操作容易报错，对于新手来说完成一篇论文很吃力，对中文不太友好。</li>
-</ul>
-<h2 id="markdown写论文">markdown写论文</h2>
-<ul>
-<li>便捷、轻松、命令简单、排版方便。</li>
-<li>不支持双栏文章的撰写。</li>
-<li>一些细节要求很难做到。</li>
-</ul>
-<h2 id="下载typora和pandoc">下载Typora和pandoc</h2>
+        <h1 id="windows系统gmt设置中文支持">Windows系统GMT设置中文支持</h1>
 <ol>
-<li>
-<p>下载Typora，这是一个markdown编辑软件，当然还有vscode自行选择。进入<a href="https://www.typora.io/">Typora项目</a>下载对应你系统的版本。一步一步安装即可。</p>
-</li>
-<li>
-<p>下载pandoc，这是一个支持将markdown文件导出word、pdf等格式较好的文件。进入<a href="https://github.com/jgm/pandoc/releases/tag/2.2.1">pandoc项目</a>，下载对应你系统的版本。</p>
-</li>
-<li>
-<p>pandoc安装，解压压缩包，配置环境变量。~计算机右键-高级设置-环境变量-将路径添加到PYTH~</p>
-</li>
-<li>
-<p>这个时候就可以支持利用Typora里面的文件，导出为word了。</p>
-</li>
-<li>
-<p>这对于基本基于markdown上传的需求可以满足，但是对于论文的写作是不能满足的！需要继续往后看。</p>
-<h2 id="markdown的基本语法">markdown的基本语法</h2>
+<li>首先认真阅读官方安装教程，逐字阅读，一般没有什么问题。</li>
+<li>安装GMT时候把gs勾去掉，安装自己的gs。</li>
+<li>使用VScode编辑的时候把代码的编译形式变成<mark>GB2312</mark>！</li>
+</ol>
+<h2 id="例">例：</h2>
+<pre><code>gmt begin test png
+gmt basemap -JM180/15c -R136/137.5/32.5/34 -Ba1f -BWSen 
+gmt makecpt -Cglobe -T-10000/10000
+gmt grdimage @earth_relief_15s -JM180/15c -I+d -W2p 
+echo 136.4 32.6 | gmt plot -Ss0.6c -W1.5p,black -Gred
+echo 136.5 32.6  未埋 | gmt text -F+f25p,39,black=1p,solid+jML
+echo &quot;136.7 33.7 KMA&quot; | gmt text -F+f20p,4,black=1P,solid+jML
+gmt end show
+</code></pre><h2 id="text">Text</h2>
 <ul>
-<li>
-<p>不做详细简介，B站上有很多关于markdown基本语法的视频简介，可以自行搜索。</p>
-</li>
-<li>
-<p>例子<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>：$E=mc^2$。<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:公式说明。</p>
-</li>
+<li>添加中文字体的时候主要字体编号,用下面代码进行查看</li>
 </ul>
-<h2 id="论文参考文献的引用设置">论文参考文献的引用设置</h2>
-<ol>
-<li>
-<p>我们需要下载一个Mendeley 这是一个管理文献非常好用的软件，与个人觉得比endnotes好用。</p>
-</li>
-<li>
-<p>选中你所需要的参考文件，导出为.bib</p>
-</li>
-<li>
-<p>利用Vscode打开.bib，可以看到我们的文献被定义为@开头的东西，我们在写论文的时候直接~[@Chen]~就可以使用。</p>
-</li>
-<li>
-<p>例：</p>
-<pre><code>陈[@Chen2019]简述了海域地震动，随着研究的深入[@Boore1999]指出不足之处,只是举例！
-</code></pre></li>
-</ol>
-<p><img src="1.png" alt="说明"></p>
-<ol start="5">
-<li>
-<p>对于4中的参考文献的引用我们只想要上标怎办？很好Mendeley给出了各种期刊的参考样式.csl文件，只要我们直接考到pandoc.exe目录下即可。
-6. 这些参考样式.csl怎么找到呢？我们打开mendeley选择输出样式-在线搜索期刊-安装即可。在去</p>
-<pre><code></code></pre></li>
-</ol>
-<p>C盘-用户-appdata-local-mendeley ltd-mendeley  desktop-style</p>
-<pre><code>就可以找到了。
-
-7. 最后一步，在你的.md文件目录下打开终端，确认你的pandoc已经配置好环境变量了，可以试着运行pandoc -version,将这个.md文件直接导成word的命令是：
-
-</code></pre><p>pandoc -s &ndash;filter pandoc-citeproc &ndash;csl=bulletin-of-the-seismological-society-of-america.csl &ndash;bibliography=EEMD.bib test.md -o test.docx
-.bib 为你自己的bib
-.csl 为你自己的csl
-.md 为你自己的md文件
-.docx 为你想导出的文件</p>
-<pre><code>8. 完事！
- 
-   
-
-
-
-</code></pre></li>
-</ol>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
- <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></li>
-</ol>
-</section>
-
+<pre><code>gmt text -L
+</code></pre><ul>
+<li>添加坐标时使用echo，按照例子中使用即可。</li>
+</ul>
+<h2 id="自己添加坐标">自己添加坐标</h2>
+<ul>
+<li>如下代码可以作为参考</li>
+</ul>
+<pre><code>cat &gt; 7.dat &lt;&lt; EOF
+136.3500	33.4667
+136.3961	33.5480
+EOF
+gmt plot 7.dat -W1.5p,black,-
+</code></pre>
         </p>
     </div>
     
@@ -383,7 +323,7 @@
         
         <hr class="footer-divider">
         
-            <a class="tag" href="/tags/markdown">#markdown</a>
+            <a class="tag" href="/tags/gmt">#GMT</a>
         
       
     </div>

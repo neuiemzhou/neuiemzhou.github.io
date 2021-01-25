@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 开放、共享、合作</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Jul 2020 23:32:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Jan 2021 22:11:02 +0800</lastBuildDate>
     
 	<atom:link href="https://neuiemzhou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GMT中文设置</title>
+      <link>https://neuiemzhou.github.io/posts/gmt_chinese/</link>
+      <pubDate>Mon, 25 Jan 2021 22:11:02 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/posts/gmt_chinese/</guid>
+      <description>Windows系统GMT设置中文支持  首先认真阅读官方安装教程，逐字阅读，一般没有什么问题。 安装GMT时候把gs勾去掉，安装自己的gs。 使用VScode编辑的时候把代码的编译形式变成GB2312！  例： gmt begin test png gmt basemap -JM180/15c -R136/137.</description>
+    </item>
     
     <item>
       <title>解决排版问题，利用markdown写论文</title>
