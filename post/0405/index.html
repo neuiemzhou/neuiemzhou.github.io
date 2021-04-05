@@ -2,7 +2,6 @@
 
 <html lang="zh-CN">
     <head>
-	<meta name="generator" content="Hugo 0.66.0" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,8 +28,6 @@
     
     
  
-    
-    <link rel="alternate" type="application/rss+xml" href="https://neuiemzhou.github.io/index.xml" title="开放、共享、合作" />
     
     
 </head>
@@ -279,79 +276,50 @@
 </nav>
         <div id="content" class="content-container">
         
-<div class = "article-content">
-        
-        <div class="description">
-            <p>闻道有先后，术业有专攻.</p>
-        </div>
-        
-        
-        
-        
-        <article>
-            <h2>
-                <a href="https://neuiemzhou.github.io/post/iris_data_download/">
-                    SOD工具下载IRIS数据
-                </a>
-            </h2>
-            <div><p>使用SOD下载IRIS地震数据  强烈建议win10用户在应用商店内置一个ubuntu 内置完成之后此时linux系统的根目录在  C：/用户/你的用户名/appdata/local/packages/C..G..LUuntu/localstate/rootfs/ 这就是你的根目录。 下载SOD  由于 SOD 是 Java 写的，因而可以跨平台直接使用。 下载:   $ wget http://www.</p></div>
-            <div class="post-footer">
-            <time>July 24, 2020</time>
+<h1 class="post-title">Hinet地震数据下载</h1>
+    
+    <time>April 5, 2021</time>
+    
+    <div>
+        <p>
+        <h1 id="donet和s-net">DONET和S-net</h1>
+<h2 id="1数据下载地址">1.数据下载地址</h2>
+<ul>
+<li><mark><a href="https://www.hinet.bosai.go.jp/">Hinet官网</a> </mark>。</li>
+<li>需要申请账号进行注册，在主页对于注册用户一栏，有相关内容。</li>
+</ul>
+<h2 id="2数据下载后格式">2.数据下载后格式</h2>
+<ul>
+<li>从hinet上下载的数据格式为win32后缀的数据格式，需要利用win32tool进行转换为sac数据格式。</li>
+</ul>
+<h2 id="3运用pythoniemzxt163com转换">3.运用pythoniemzxt@163.com转换</h2>
+<ul>
+<li>由于中科大的seisman博主将相关工具内置进了python，相关的使用教程可以参考seisman的博客。</li>
+</ul>
+<h2 id="4运用matlab转换">4.运用matlab转换</h2>
+<ul>
+<li>相关资料包可以联系笔者：iemzxt@163.com</li>
+</ul>
 
-            
-            
-                
-                    <a class="tag" href="/tags/iris">#IRIS</a>
-                
-                    <a class="tag" href="/tags/sod">#SOD</a>
-                
-            
-            </div> 
-           
-        </article>
-        
-        <article>
-            <h2>
-                <a href="https://neuiemzhou.github.io/post/blo4g/">
-                    利用hugo建立自己的博客
-                </a>
-            </h2>
-            <div><p>用hugo建站建好了之后怎么更新文章  首先新建一个md在这个里面写 hugo new posts/XXXX.md hugo server -t noteworthy &ndash;buildDrafts 在站点上查看更新的文章是否上去 根目录下 hugo &ndash;theme=noteworthy &ndash;baseUrl=&quot;https://neuiemzhou.</p></div>
-            <div class="post-footer">
-            <time>March 11, 2020</time>
+        </p>
+    </div>
+    
 
-            
-            
-                
-                    <a class="tag" href="/tags/hugo">#hugo</a>
-                
-            
-            </div> 
-           
-        </article>
+    <div class="page-footer">
         
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/data-download">#data download</a>
+        
+            <a class="tag" href="/tags/donet">#DONET</a>
+        
+            <a class="tag" href="/tags/s-net">#S-net</a>
+        
+            <a class="tag" href="/tags/hinet">#hinet</a>
+        
+      
     </div>
-        
-        <div class="paginator">
-        
-        
-        <p>Page 2 of 2</p>
-        <div class="paginator-group">
-            
-            <a class="color-link" href="/">
-                    <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                        <g class="color-arrow" fill="#63BDA2" fill-rule="nonzero">
-                            <polygon id="Path" points="1.75929935 4.50000282 5.3292523 7.62371165 4.6707477 8.37628835 0.240700645 4.49999718 4.67081049 0.623709205 5.32930951 1.37629079"></polygon>
-                            <polygon id="Path" points="13 4 13 5 1 5 1 4"></polygon>
-                        </g>
-                </svg>  
-                Newer          
-            </a>
-            
-            
-        </div>
-        
-    </div>
+
 
         
 

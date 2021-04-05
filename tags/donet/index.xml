@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DONET on 开放、共享、合作</title>
+    <link>https://neuiemzhou.github.io/tags/donet/</link>
+    <description>Recent content in DONET on 开放、共享、合作</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 05 Apr 2021 15:52:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://neuiemzhou.github.io/tags/donet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hinet地震数据下载</title>
+      <link>https://neuiemzhou.github.io/post/0405/</link>
+      <pubDate>Mon, 05 Apr 2021 15:52:00 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/0405/</guid>
+      <description>DONET和S-net 1.数据下载地址  Hinet官网 。 需要申请账号进行注册，在主页对于注册用户一栏，有相关内容。  2.数据下载后格式  从hinet上下载的数据格式为win32后缀的数据格式，需要利用win32tool进行转换为sac数据格式。  3.</description>
+    </item>
+    
+  </channel>
+</rss>

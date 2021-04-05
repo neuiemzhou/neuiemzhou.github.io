@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Hinet地震数据下载</title>
+      <link>https://neuiemzhou.github.io/post/0405/</link>
+      <pubDate>Mon, 05 Apr 2021 15:52:00 +0800</pubDate>
+      
+      <guid>https://neuiemzhou.github.io/post/0405/</guid>
+      <description>DONET和S-net 1.数据下载地址  Hinet官网 。 需要申请账号进行注册，在主页对于注册用户一栏，有相关内容。  2.数据下载后格式  从hinet上下载的数据格式为win32后缀的数据格式，需要利用win32tool进行转换为sac数据格式。  3.</description>
+    </item>
+    
+    <item>
       <title>GMT中文设置</title>
       <link>https://neuiemzhou.github.io/posts/gmt_chinese/</link>
       <pubDate>Mon, 25 Jan 2021 22:11:02 +0800</pubDate>
